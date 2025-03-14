@@ -4,7 +4,7 @@ from pydantic_settings import SettingsConfigDict, BaseSettings
 
 from src.infrastructure.logger import logger
 
-DEBUG = True
+DEBUG = False
 
 
 class Settings(BaseSettings):
