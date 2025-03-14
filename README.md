@@ -20,4 +20,4 @@ File structure: HEADERS - **title** | **url** | **xpath** | **next_page_xpath**
 
 ## Test
 
-You can test it with the file [example.xlsx](example.xlsx)
+You can test it with the file [example.xlsx](https://raw.githubusercontent.com/NormanwOw/TEST.Web-parser-bot/refs/heads/main/example.xlsx)
