@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "testparcerbot"
+version = "0.1.0"
+description = ""
+authors = ["NormanwOw <normjkeee@vk.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic-settings = "^2.8.1"
+aiogram = "^3.18.0"
+alembic = "^1.15.1"
+pre-commit = "^4.1.0"
+flake8 = "^7.1.2"
+flake8-print = "^5.0.0"
+aiosqlite = "^0.21.0"
+pandas = "^2.2.3"
+openpyxl = "^3.1.5"
+beautifulsoup4 = "^4.13.3"
+lxml = "^5.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

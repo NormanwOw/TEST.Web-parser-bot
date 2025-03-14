@@ -1,0 +1,10 @@
+services:
+  app:
+    build:
+      context: ./../
+    image: web_parser_bot:latest
+    restart: unless-stopped
+    volumes:
+      - ./data/db.sqlite:/app/data/db.sqlite
+    container_name: web_parser_bot
+    command: bash -c "alembic upgrade head && python -m src.main"
